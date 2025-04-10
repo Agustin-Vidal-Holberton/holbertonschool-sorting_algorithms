@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "sort.h"
 
 /**
@@ -7,13 +8,13 @@
  * @size: Tama√o del arregl
  * Return: Nada
  */
-void selection_sort(int *array, size_t size);
+void selection_sort(int *array, size_t size)
 {
 	size_t i, j, min_idx;
 	int temp;
 
 	if (!array || size < 2)
-		return (0);
+		return;
 
 	for (i = 0; i < size - 1; i++)
 	{
