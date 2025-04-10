@@ -2,7 +2,7 @@
 
 /**
  * selection_sort - Ordena un arreglo de enteros en orden ascendente
- * 			utilizando el algoritmo de seleccion.
+ * utilizando el algoritmo de seleccion.
  * @array: Apuntador al arreglo de enteros
  * @size: Tama√o del arregl
  * Return: Nada
@@ -15,7 +15,7 @@ void selection_sort(int *array, size_t size);
 	if (!array || size < 2)
 		return (0);
 
-	for (i = 0; i < size -1; i++)
+	for (i = 0; i < size - 1; i++)
 	{
 		min_idx = i;
 		for (j = i + 1; j < size; j++)
