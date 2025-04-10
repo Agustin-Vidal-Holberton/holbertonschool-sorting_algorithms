@@ -50,7 +50,7 @@ int lomuto_partition(int *array, int low, int high, size_t size)
 		swap(&array[i], &array[high]);
 		print_array(array, size);
 	}
-	else if(i != high)
+	else if (i != high)
 	{
 		swap(&array[i], &array[high]);
 	}
